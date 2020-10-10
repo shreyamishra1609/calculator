@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title> calculator</title>
+
+        <link rel="stylesheet" type="text/css" href="calc.css">
+    </head>
+    <body>
+        <div>
+       <p> <b>CALCULATOR</b></p> 
+        </div>
+
+        <div id="pic">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.mI6iW5glXCTrnzYQuOQlfAEgDY&pid=Api&P=0&w=236&h=177" height="250px" width="350px">
+        </div>
+
+        <div class="calc">
+            <form name="forms">
+
+<input type="text" name="exp" id="inp">
+ <br>
+<input type="button" value=" / " onclick=" document.getElementById('inp').value+='/'">
+<!--document.getElementById('inp').value = document.getElementById('inp').value + '/'-->
+<input type="button" value=" ( " onclick=" document.getElementById('inp').value+='('"> 
+<input type="button" value=" ) " onclick=" document.getElementById('inp').value+=')'"> 
+<input type="button" value=" ~" onclick=" document.getElementById('inp').value+='~'"> 
+<br>              
+<input type="button" value=" 1 " onclick=" document.getElementById('inp').value+='1'">
+<input type="button" value=" 2 " onclick=" document.getElementById('inp').value+='2'">
+<input type="button" value=" 3 " onclick=" document.getElementById('inp').value+='3'">
+<input type="button" value=" + " onclick=" document.getElementById('inp').value+='+'">
+<br>
+<input type="button" value=" 4 " onclick=" document.getElementById('inp').value+='4'">
+<input type="button" value=" 5 " onclick=" document.getElementById('inp').value+='5'">
+<input type="button" value=" 6 " onclick=" document.getElementById('inp').value+='6'">
+<input type="button" value=" - " onclick=" document.getElementById('inp').value+='-'">
+<br>
+<input type="button" value=" 7 " onclick=" document.getElementById('inp').value+='7'">
+<input type="button" value=" 8 " onclick=" document.getElementById('inp').value+='8'">
+<input type="button" value=" 9 " onclick=" document.getElementById('inp').value+='9'">
+<input type="button" value=" * " onclick=" document.getElementById('inp').value+='*'">
+<br>
+<input type="button" value=" C " onclick=" document.getElementById('inp').value=''">
+<input type="button" value=" 0 " onclick=" document.getElementById('inp').value+='0'">
+<input type="button" value=" . " onclick=" document.getElementById('inp').value+='.'">
+<input type="button" value=" = " onclick=" document.getElementById('inp').value=eval( document.getElementById('inp').value)">
+            </form>
+        </div>
+    </body>
+</html>
+
